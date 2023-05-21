@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Community Landing Page</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<!--section starts here-->
+  <section id="hero">
+    <div class="hero-content">
+      <h1><b>Welcome to GDSE Community</b></h1>
+      <a href="#" class="btn">Join Now</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p> Welcome to our vibrant student community! We are a diverse group of students who come together to connect, collaborate, and support one another throughout our academic journey. Whether you're a high school student, college student, or pursuing higher education, our community offers a platform to share ideas, seek guidance, and foster lifelong friendships.</p>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="events-content">
+      <h2>Upcoming Events</h2>
+      <div class="event">
+        <h3>GDSE Community Day</h3>
+        <p>Date: May 30, 2023</p>
+        <p>Location: Conard,Pune</p>
+        <img src="conard.jpg" width="570" height="500">
+      </div>
+      <div class="event">
+        <h3>GDSE WOW</h3>
+        <p>Date: June 15, 2023</p>
+        <p>Location: Community Center</p>
+        <img src="gdse.jpg" width="570" height="500">
+      </div>
+      <h2>Android Study Jams</h2>
+        <p>Date: August 10, 2023</p>
+        <p>Location: Community Center</p>
+        <img src="android.jpg" width="600" height="400">
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="blog-content">
+      <h2>Latest Blog Posts</h2>
+      <div class="blog-post">
+        <h3>GDSE Solution Challenge</h3>
+        <p>The GDSE Solution Challenge is a global initiative that brings together talented developers, designers, and innovators to collaborate on solving real-world software development problems. Hosted by the vibrant and diverse community of the General Developer Stack Exchange (GDSE), this challenge aims to foster creativity, encourage knowledge-sharing, and provide practical solutions to common software development challenges.</p>
+      <img src="solution challenge.jpg" width="570" height="470">
+      </div>
+      <div class="blog-post">
+        <h3>The AI Paradox</h3>
+        <p>Artificial Intelligence (AI) has transformed the world we live in, revolutionizing industries and reshaping the way we interact with technology. However, as AI continues to advance at a rapid pace, we are confronted with a paradox: the need to strike a delicate balance between pushing the boundaries of innovation and ensuring ethical considerations are prioritized. This blog post explores the AI paradox and the challenges it presents in our ever-evolving technological landscape.</p>
+      <img src="blog1.jpg" width="550" height="470"
+      </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <!--Footer Sction for copyright related purposes-->
+  <footer>
+    <p>&copy; 2023 Community Landing Page. All rights reserved.</p>
+  </footer>
+
+<style>
+ /*styling starts here*/
+
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.484);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #4285F4,#DB4437, #F4B400, #0F9D58 );
+  color: black;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 29px;
+}
+
+nav ul li {
+  margin: 0 27px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+nav ul li a:hover {
+  color:black;
+}
+
+/* Hero section */
+#hero {
+  background: url('gdse2.jpg') center/cover;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+  color: black;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content p {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: #ff4141;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  margin-top: 15%;
+}
+
+.btn:hover {
+  background: #4cfa07;
+}
+
+/* About section */
+#about {
+  padding: 80px 0;
+  text-align: center;
+  background-color:white;
+}
+
+.about-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 49px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-content p {
+  color: #555;
+  font-size: 20px;
+
+}
+
+/* Events section */
+#events {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.events-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.events-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.event {
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.event h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.event p {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Blog section */
+#blog {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.blog-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blog-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.blog-post {
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-post p {
+  color: #555;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right,  #4285F4,#DB4437, #F4B400, #0F9D58);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 23px;
+  margin-bottom: 5px;
+  color:black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ section {
+	  margin: 0%;
+	  padding: 0px;
+	  margin-right: 0%;
+	  margin-top: 0%;
+    }
+
+</style>
+</body>
+</html>
